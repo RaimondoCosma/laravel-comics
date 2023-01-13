@@ -20,6 +20,7 @@
 
 <body>
     @include('partials.header')
+    @yield('hero-content')
     <main>
         @yield('page-content')
     </main>
