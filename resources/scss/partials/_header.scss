@@ -1,0 +1,40 @@
+.bg-pre-header {
+    background-color: var(--main-color);
+}
+.pre-header {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    & > div:first-child {
+        margin-right: 3.125rem;
+    }
+}
+.ms-nav {
+    flex-grow: 1;
+}
+.ms-nav > ul {
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+.logo,
+.search-bar {
+    width: 11.25rem;
+    & input {
+        width: 9.375rem;
+        border: none;
+        border-bottom: 0.125rem solid var(--main-color);
+        &::placeholder {
+            text-align: center;
+        }
+    }
+    & .ms-lens {
+        right: 0;
+        bottom: 0.1875rem;
+    }
+}
+.logo > img {
+    height: 5rem;
+}
+.search-bar {
+    text-align: right;
+}
