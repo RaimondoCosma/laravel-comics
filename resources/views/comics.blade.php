@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title-page')
-    Games
+    Comics
 @endsection
 
 @section('hero-content')
